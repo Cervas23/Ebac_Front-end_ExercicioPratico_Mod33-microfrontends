@@ -1,0 +1,26 @@
+{
+  "bundler": {
+    "name": "webpack"
+  },
+  "mfConfig": {
+    "name": "cardapio",
+    "exposes": {
+      "./Cardapio": "./src/components/Cardapio"
+    }
+  },
+  "latestErrorEvent": {
+    "code": "BUILD-001",
+    "message": "Failed to find expose module. #BUILD-001\nargs: {\"exposeModules\":[{\"name\":\"./Cardapio\",\"module\":null,\"request\":\"./src/components/Cardapio\"}],\"FEDERATION_WEBPACK_PATH\":\"C:\\\\Users\\\\Pichau\\\\Desktop\\\\EBAC\\\\Front-End\\\\MOD33\\\\pedidos\\\\node_modules\\\\webpack\\\\lib\\\\index.js\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/build#build-001",
+    "args": {
+      "exposeModules": [
+        {
+          "name": "./Cardapio",
+          "module": null,
+          "request": "./src/components/Cardapio"
+        }
+      ],
+      "FEDERATION_WEBPACK_PATH": "C:\\Users\\Pichau\\Desktop\\EBAC\\Front-End\\MOD33\\pedidos\\node_modules\\webpack\\lib\\index.js"
+    },
+    "timestamp": 1775677931417
+  }
+}
